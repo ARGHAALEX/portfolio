@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argah Banerjee portfolio web</title>
+    <link rel="stylesheet" href="sytel.css">
+    <script src="https://kit.fontawesome.com/a2732ebee4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container logo">
+            <nav>
+                <!-- <H1><B><i>Aesthetic</i></B></H1> -->
+                <img src="logo.jpg" alt="LOGO" height="100px" width="100px" >
+                <ul id="sidemeanu">
+                    <li><a href="#heder">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><B>UI/UX Designer</B></p> <br>
+                <h2>HI,I am 
+            <span>ARGHA</span><br>Banerjee from Barasat</h2>
+            </div>
+        </div>
+    </div>
+   <!--------------------------- About section ---------------------------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo2.jpg" alt="About me">
+
+                </div>
+                <div class="aboutt-col-2">
+                    <h1 class="sub-tittel">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem suscipit atque porro molestias dolorum eius aliquam magnam, nulla, nobis impedit totam exercitationem laborum iusto amet dolores autem, consequuntur aut explicabo!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> skills</p>
+                        <p class="tab-links"onclick="opentab('Experiance')"> Experiance</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>WEB DEVLOPMENT</span><br>Web app Desing</li>
+                            <li><span>DATA SCIENTES</span><br>Busness Analytic</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Experiance">
+                        <ul>
+                            <li><span>2019-20</span><br>Morden Engineering</li>
+                            <li><span>2021-22</span><br>KNK shipping limited</li>
+                            <li><span>2023</span><br>ICRA Analytic</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span>2019-2022</span><br>Diploma Engineering</li>
+                            <li><span>2023</span><br>Advance Excel from Anudip</li>
+                            <li><span> 2024</span><br>B-tech DATA SCIENCE(persuing)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------services----------------------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-tittel">MY Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><i>Web Design</i></h2>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam doloremque voluptate quasi, officiis sit cupiditate itaque? Impedit debitis ducimus voluptates maxime labore delectus fuga, recusandae, quod accusamus vitae natus doloribus.</P>
+                    <a href="#">Learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2><i>UI/UX</i></h2>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam doloremque voluptate quasi, officiis sit cupiditate itaque? Impedit debitis ducimus voluptates maxime labore delectus fuga, recusandae, quod accusamus vitae natus doloribus.</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2><i>DATA Analytic</i></h2>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam doloremque voluptate quasi, officiis sit cupiditate itaque? Impedit debitis ducimus voluptates maxime labore delectus fuga, recusandae, quod accusamus vitae natus doloribus.</P>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------------------portfolio-------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittel">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photo5.jpg" alt="web dev" height="450px" width="300px">
+                    <div class="layer">
+                        <h3>Web page devlope</h3>
+                        <P> The app connects you to the telented people areoun the world.Downlode it from play store</P>
+                        <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo1.jpg" alt="UI/UX" height="450px" width="300px">
+                    <div class="layer">
+                        <h3>App interfaces</h3>
+                        <P> UX design emphasizes user interaction. All design choices are based on what the user is looking for and how they use the app. UI design focuses on how the user interacts with the app. It includes buttons, blocks, controls, menus, pop-ups, and other elements that make up your app's appearance.</P>
+                        <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo6.jpg" alt="DAta analytic" height="450" width="300px">
+                    <div class="layer">
+                        <h3>Data refine</h3>
+                        <P> What is Data Refinement? Data Refinement, also known as data preparation or data wrangling, involves the process of improving the quality and usability of raw data. It includes various tasks such as data cleaning, data transformation, and data enrichment.</P>
+                        <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                    </div>
+                </div>
+            </div>
+              <a href="#" class="buttons">See more</a>
+        </div>
+
+    </div>
+    <!-- -------------------------contact--------------------- -->
+      <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittel">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>princebanerjee1999@gamail.com</p>
+                    <p><i class="fa-solid fa-phone-slash"></i>7449466463</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="image/RESUME ARGHA 2.pdf"Downlode class="buttons buttons2">Downlode CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="your mail" required>
+                        <textarea name="Message"   rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="buttons buttons2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ ARGHA <i class="fa-solid fa-ghost fa-xl" style="color: #B197FC;"></i></p>
+        </div>
+      </div>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (let i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+                tabcontents[i].classList.remove("active-tab");
+            }
+            for (let i = 0; i < tablinks.length; i++) {
+                if (tablinks[i].innerText.trim() === tabname) {
+                    tablinks[i].classList.add("active-link");
+                    tabcontents[i].classList.add("active-tab");
+                    break;
+                }
+            }
+        }
+    </script>
+    <script>
+        var sidemeanu=document.getElementById("sidemeanu")
+        function openmenu(){
+            sidemeanu.style.right= "0"
+        }
+        function closemenu(){
+            sidemeanu.style.right= "-200px"
+        }
+
+    </script>
+    <script src="index.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwN2pQp9FJfnCnZwfQu8e8ypGybs4IijCO0VED4aAlv2_mIduu-Wan4Lox0e8a2uyhG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
